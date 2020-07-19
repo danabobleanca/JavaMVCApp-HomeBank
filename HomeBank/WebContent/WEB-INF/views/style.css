@@ -1,0 +1,400 @@
+							/* index */
+
+body{
+	background-color:#f6f6f6;
+	margin:0px;
+}
+
+
+header h1{
+	text-align:right;
+	color:#b20000;
+	padding:15px 50px 20px 0px;
+	margin:0px;
+	background-color:white;
+}
+
+#home, #welcome{
+	width:85%;
+	margin:0px auto;
+	display:flex;
+	margin-top:40px;
+	box-sizing:border-box;
+}
+#home_box1{
+ 	flex-basis:35%;
+ 	border:1px solid #ff9999;
+ 	box-sizing:border-box;
+
+ }
+#home_box1 h4{
+ 	background-color:#7f0000;
+ 	color:white;
+ 	margin:0px;
+ 	padding:10px 0px;
+ 	box-sizing:border-box;
+ }
+#home_box1 h4 i{
+ 	margin:0px 10px;
+ }
+
+#home_box1 h5{
+	text-align:justify;
+	padding:0px 20px;
+ } 
+ 
+#home_box2{
+	flex-basis:60%;
+}
+input, label, .error{
+	display:block;
+	width:70%;
+	margin:0px auto;
+	height:30px;
+	border-radius:2px;
+}
+
+input[type="submit"]{
+	width:40%;
+	margin:30px auto;
+	padding:10px 0px;
+	height:auto;
+	background-color:#7f0000;
+	font-size:14px;
+	color:white;
+}
+.error{
+	color:red;
+}
+input:focus{
+	background-color:#fff4f4;
+}
+
+										/* WELCOME */
+		
+#welcome{
+	margin-top:0px;
+	justify-content:space-between;
+	background-color:white;
+	box-shadow:0px 4px 8px black;
+}								
+#welcome_box1{
+	flex-basis:35%;
+	border-bottom:1px solid #ff9999;
+}
+
+.nav_welcome h4{
+	background-color:#7f0000;
+	margin:0px;
+	padding:20px 40px;
+	text-align:center;
+	color:#ffe5e5;
+}
+.nav_welcome .fa-angle-double-right{
+	float:right;
+	padding-right:20px;
+}
+.nav_welcome>div{
+	border:1px solid #ff9999;
+	margin:0px;
+}
+.nav_welcome>div h5{
+	margin:0px;
+	padding:10px 20px;
+	font-size:14px;
+	color:
+}
+.nav_welcome a h4:hover, .nav_welcome a h5:hover{
+	background-color:red;
+
+}
+.nav_welcome a{
+	text-decoration:none;
+}
+
+.nav_welcome>div h5 i{
+	padding:0px 15px 0px 0px;
+	color:#7f0000;
+	width:40px;
+	font-size:22px;
+}
+.nav_welcome div h5{
+	color:black;
+}
+
+.nav_welcome div h6{
+	padding:10px 20px;
+	font-size:15px;
+	color:#b1b1b1;
+	margin:0px;
+}
+
+.portofolio .account{
+	width:100%;
+	box-sizing:border-box;
+}
+.portofolio_account span{
+	float:right;
+	color:#7f0000;
+}
+.portofolio_account span>i{
+	float:right;
+	color:#b1b1b1;
+}
+hr{
+	display: block;
+	height: 1px;
+    border: 0;
+    border-top: 1px solid #ffcccc;
+    margin:0px 20px;
+}
+
+#welcome_box2{
+	flex-basis:60%;
+	
+}
+.welcome_details{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	padding:10px 20px;
+	align-items:baseline;
+}
+
+.welcome_details_box{
+	flex-basis:48%;
+	border:1px solid #f8b8b8;
+	margin-bottom:20px;
+	box-shadow:0px 4px 8px black;
+}
+
+.welcome_details_box h3{
+	width:100%;
+	background-color:#7f0000;
+	padding:7px 15px;
+	color:#ffe5e5;
+	box-sizing:border-box;
+	margin:0px;
+}
+.welcome_details_box h3 .fa-bank,.welcome_details_box h3 .fa-piggy-bank, .welcome_details_box h3 .fa-credit-card {
+	float:left;
+	padding:0px 20px 0px 0px;
+}
+
+.welcome_details_box .fa-refresh{
+	float:right;
+}
+
+.welcome_details_box h5, .welcome_details_box h4{
+	padding:0px 15px;
+}
+
+.welcome_details_box h5 span, .welcome_details_box h4 span{
+	float:right;
+}
+
+.welcome_details_box h4 {
+	margin:15px 5px;
+}
+.welcome_details_box h5{
+	margin:5px 5px  15px 5px;
+	color:#949494;
+}
+
+.fa-plus-square{
+	float:right;
+}
+
+.welcome_details_box h4 .fa-plus-square{
+	color:#7f0000;
+}
+
+.welcome_details div a{
+	color:black;
+	text-decoration:none;
+}
+
+				/*ACCOUNTS OPTIONS*/
+				
+.account_options{
+	display:flex;
+	flex-basis:20%;
+	justify-content:space-around;
+	background-color:#7f0000;
+}
+.account_options div a{
+	color:#949494;
+}
+
+.option{
+	text-align:center;
+	padding:15px 0px;
+}
+.option p{
+	font-size:13px;
+	margin:5px 0px;
+}
+
+.option a>i{
+	font-size:30px;
+}
+
+				/* PAYMENT BETWEEN ACCOUNTS */
+			
+
+.payments_details h2{
+	color:#7f0000;
+}	
+.payments_details h2 i{
+	margin:0px 20px;	
+}
+
+#payments_accounts{
+	display:flex;
+	justify-content:space-around;
+}
+
+#payments_accounts>div{
+	box-sizing:border-box;
+	flex-basis:45%;
+	background-color:#eeeeee;
+	padding:20px;
+	border-radius:7px;
+}
+#payments_accounts h5{
+	font-size:14px;
+}
+
+#from_account select,#to_account select{
+	padding:10px;
+	border-radius:10px;
+	width:100%;
+	border:1px solid #c6c6c6;
+}
+
+#from_account h5, #to_account h5{
+	margin:0px;
+}
+
+#transfer{
+	display:flex;
+	float:right;
+}
+#transfer_details input{
+	border-radius:10px;
+	border:1px solid #c6c6c6;
+	height:40px;
+	text-align:right;
+	float:right;
+}
+#transfer input{
+	flex-basis:60%;
+	border-radius:10px;
+	height:40px;
+	border:1px solid #c6c6c6;
+	text-align:right;
+	
+}
+#transfer label{
+	flex-basis:20%;
+	color:black;
+	padding:10px 0px 0px 15px;
+}
+
+#from_account input{
+	width:140px;
+}
+
+.payments_details h4{
+	width:150px;
+	margin:0px auto;
+	text-align:Center;
+	padding:13px 0px;
+	border-radius:10px;
+	margin-top:70px;
+	background-color:#7f0000;
+	color:white;
+}
+
+#ibanToTransfer{
+	width:100%;
+	border-radius:10px;
+	box-sizing:border-box;
+	height:40px;
+	border:1px solid #c6c6c6;
+	text-align:right;
+}
+
+form input[type="submit"]{
+	width:160px;
+	border-radius:10px;
+}
+
+#successfulPaymentBetweenAccounts h2{
+	color:red;
+	text-align:center;
+}
+
+#successfulPaymentBetweenAccounts span{
+	color:red;
+}
+
+						/* IBAN PAGE	*/
+						
+#accountDetails{
+	width:40%;
+	margin:0px auto;
+	background-color:white;
+	padding:50px;
+	box-sizing:border-box;
+	margin-top:50px;
+}
+
+#accountDetails p{
+	font-weight:bold;
+}
+
+							/* TRANSACTIONS	*/
+							
+#report{
+	color:red;
+	text-align:center;
+}
+
+#report table{
+	width:70%;
+	background-color:white;
+	margin:10px auto;
+	padding:40px 20px;
+	border:2px solid #cecece;
+	border-radius:20px;
+	cellpading:"20";
+	border-spacing:15px;
+	text-align:center;
+}
+
+#report  p{
+	text-align:Center;
+	font-size:22px;
+}
+table td{
+	padding:10px 0px;
+	border-bottom:2px solid #e2e2e2;
+	margin:10px;
+}
+
+.thead{
+	border-bottom:white;
+	background-color:#e1e1e1;
+	
+}
+
+.amount{
+	color:red;
+	text-align:left;
+	width:300px;
+}
+
+#amount_paid{
+	border:2px;
+}

@@ -1,0 +1,1 @@
+insert into savingsaccount values('SAVINGS_ACCOUNT','RO65BANK0000999912211432');
